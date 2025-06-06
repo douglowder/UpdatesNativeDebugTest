@@ -53,7 +53,6 @@
   },
   "private": true,
   "patchedDependencies": {
-    "react-native@0.79.3": "patches/react-native@0.79.3.patch",
-    "expo-updates@0.28.14": "patches/expo-updates@0.28.14.patch"
+    "react-native@0.79.3": "patches/react-native@0.79.3.patch"
   }
 }
