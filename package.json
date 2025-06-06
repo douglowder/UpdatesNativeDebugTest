@@ -53,6 +53,7 @@
   },
   "private": true,
   "patchedDependencies": {
-    "expo-updates@0.28.14": "patches/expo-updates@0.28.14.patch"
+    "expo-updates@0.28.14": "patches/expo-updates@0.28.14.patch",
+    "expo-modules-autolinking@2.1.10": "patches/expo-modules-autolinking@2.1.10.patch"
   }
 }

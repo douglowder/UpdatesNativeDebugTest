@@ -47,6 +47,8 @@
   },
   "patchedDependencies": {
     "expo-updates@0.28.14": "patches/expo-updates@0.28.14.patch",
+    "react-native@0.79.3": "patches/react-native@0.79.3.patch",
+    "expo-modules-autolinking@2.1.10": "patches/expo-modules-autolinking@2.1.10.patch",
   },
   "packages": {
     "@0no-co/graphql.web": ["@0no-co/graphql.web@1.1.2", "", { "peerDependencies": { "graphql": "^14.0.0 || ^15.0.0 || ^16.0.0" }, "optionalPeers": ["graphql"] }, "sha512-N2NGsU5FLBhT8NZ+3l2YrzZSHITjNXNuDhC4iDiikv0IujaJ0Xc6xIxQZ/Ek3Cb+rgPjnLHYyJm11tInuJn+cw=="],
