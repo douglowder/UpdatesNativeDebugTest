@@ -20,7 +20,8 @@ import {
 } from 'react-native';
 import * as Device from 'expo-device';
 import { useCallback, useEffect, useState } from 'react';
-
+import '@/global.css';
+import { SafeAreaView } from 'react-native-safe-area-context';
 export default function TabThreeScreen() {
   const useUpdatesReturnType = useUpdates();
   const {
@@ -85,7 +86,7 @@ export default function TabThreeScreen() {
   }
 
   return (
-    <View className="flex-1 bg-shade-1">
+    <SafeAreaView className="w-full h-full bg-shade-1">
       <View className="flex-row align-middle">
         <Text className="flex-1 font-semibold text-3xl px-4 py-2 bg-shade-2">
           Current Update
@@ -180,7 +181,7 @@ export default function TabThreeScreen() {
           title={'Update Branch'}
         />
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
 
