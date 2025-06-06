@@ -54,7 +54,6 @@
   "private": true,
   "patchedDependencies": {
     "react-native@0.79.3": "patches/react-native@0.79.3.patch",
-    "expo-modules-autolinking@2.1.10": "patches/expo-modules-autolinking@2.1.10.patch",
     "expo-updates@0.28.14": "patches/expo-updates@0.28.14.patch"
   }
 }
